@@ -1,0 +1,26 @@
+# Eclipse stuff
+.classpath
+.project
+.settings
+
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# vim
+.*.sw[a-p]
+
+# various other potential build files
+/build
+/bin
+/dist
+/manifest.mf
+
+
+# Don't include databases
+auth.db
+users.db
+
+# Don't include app data
+/data
+/logs
